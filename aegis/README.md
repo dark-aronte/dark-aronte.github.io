@@ -20,7 +20,7 @@ The first command inserts or updates a CSP meta element; the second checks that 
 - Security tests run in CI on every push and pull request.
 - CSP in an HTML meta tag is less capable than a CSP HTTP response header. It cannot enforce `frame-ancestors`, provide report-only monitoring, or protect responses that do not contain the meta tag. A host or CDN should enforce CSP via response headers and supply HSTS, X-Content-Type-Options, Referrer-Policy and Permissions-Policy.
 - GitHub Pages handles TLS and infrastructure; this tool cannot configure GitHub's edge firewall, rate limits, account access, branch protection or DDoS controls. Configure repository MFA, branch protection, minimal permissions and secret scanning independently.
-- `style-src 'unsafe-inline'` remains for compatibility with the current site's inline styles. Removing it requires refactoring CSS.
+- Inline CSS is permitted by SHA-256 hashes; inline style attributes are disallowed. Re-run --apply after editing inline CSS or JS.
 - This is defense in depth, not a guarantee that a site cannot be compromised.
 
 ## Release process

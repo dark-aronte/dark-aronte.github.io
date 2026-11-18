@@ -17,3 +17,4 @@ jobs:
           node scripts/check-site.mjs
           node scripts/check-mirror.mjs
           node scripts/check-filecheck.mjs
+          node scripts/filecheck-functional-test.cjs

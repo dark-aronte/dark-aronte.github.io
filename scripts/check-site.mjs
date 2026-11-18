@@ -15,4 +15,7 @@ const image="assets/dark-aronte.webp";
 assert.ok(existsSync(image),"Hero image missing");
 assert.ok(statSync(image).size>1024,"Hero image appears empty");
 assert.doesNotMatch(html,/(href|src)="#"/i,"Placeholder destination detected");
+assert.doesNotMatch(html, /\u00c3[\u00a0-\u00bf]|\u00e2[\u2020\u20ac]/u, "Broken UTF-8 character sequence detected");
+assert.match(html, /Leggi le guide di sicurezza &rarr;/, "Guide link label is malformed");
+assert.match(html, /L'identit&agrave; Dark Aronte/, "Identity link label is malformed");
 console.log("Dark Aronte site checks passed");

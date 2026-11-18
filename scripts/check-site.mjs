@@ -1,7 +1,7 @@
 import { readFileSync, existsSync, statSync } from "node:fs";
 import assert from "node:assert/strict";
 const html=readFileSync("index.html","utf8");
-for(const id of ["main","software","console","status"]) {
+for(const id of ["main","software","console","cyber-knowledge"]) {
   assert.match(html,new RegExp('id="'+id+'"'),"Missing section: "+id);
 }
 assert.match(html,/data-switch="it"/,"Italian switch missing");

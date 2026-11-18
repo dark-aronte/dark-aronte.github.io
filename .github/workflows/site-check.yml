@@ -13,4 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Validate website and assets
-        run: node scripts/check-site.mjs
+        run: | 
+          node scripts/check-site.mjs
+          node scripts/check-mirror.mjs

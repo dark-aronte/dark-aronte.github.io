@@ -16,3 +16,4 @@ jobs:
         run: | 
           node scripts/check-site.mjs
           node scripts/check-mirror.mjs
+          node scripts/check-filecheck.mjs

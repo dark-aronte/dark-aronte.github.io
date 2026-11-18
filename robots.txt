@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dark-aronte.github.io/sitemap.xml

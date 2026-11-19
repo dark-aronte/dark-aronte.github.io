@@ -10,7 +10,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import os from 'node:os';
 
-const paths=['index.html','identita.html','guide/index.html','digital-mirror.html','filecheck.html','404.html','editoriale.css','editoriale.js','assets/dark-aronte.webp','software/catalog.json','sitemap.xml','robots.txt','aegis/aegis.mjs','aegis/aegis.svg'];
+const paths=['index.html','identita.html','guide/index.html','digital-mirror.html','filecheck.html','404.html','editoriale.css','editoriale.js','assets/dark-aronte.webp','software/catalog.json','sitemap.xml','robots.txt','aegis/aegis.mjs','aegis/aegis.svg','aegis-system/index.html','aegis-system/style.css'];
 const root=process.cwd();
 const manifestPath=path.join(root,'aegis','trustprint-manifest.json');
 const signaturePath=path.join(root,'aegis','trustprint-signature.txt');

@@ -6,6 +6,14 @@
       "sha256": "f9972ad2bce39ebb499c860591643cd704825efc8ac34d3ec9458d4b2b417f78",
       "bytes": 933
     },
+    "aegis-system/index.html": {
+      "sha256": "c42813af657768225386521617d3d178c26f96810673aaa73a87c09a13f17538",
+      "bytes": 4459
+    },
+    "aegis-system/style.css": {
+      "sha256": "2008385b7d496dd6fa8dc8197fc26d19734a807b0673acef88f905ae6f1688ab",
+      "bytes": 2666
+    },
     "aegis/aegis.mjs": {
       "sha256": "8158721019e34ae5ca474742bd72d529294183ee4864be6cd4041658cfdf5d6c",
       "bytes": 2833
@@ -43,16 +51,16 @@
       "bytes": 3830
     },
     "index.html": {
-      "sha256": "763d1f8574a658b310a9617d346c0780df01c017736021646f568b402101a451",
-      "bytes": 18088
+      "sha256": "3dac065c227e10657b47db7744700ec0549764e2dad1a02d00736dd8b064ca85",
+      "bytes": 18198
     },
     "robots.txt": {
       "sha256": "68d3eb2763d777b446c8fee25d8111fd1c4edebfc13aa062b8e22a0888ef394c",
       "bytes": 74
     },
     "sitemap.xml": {
-      "sha256": "d1ffe698eb9771886cb0d6bf5e8fe80c8f4c46db791c61116b84b4ea9e923ec5",
-      "bytes": 419
+      "sha256": "e6bf16978f027c652bee674fa421f66135d05cae3862c00f54ef6e72af498986",
+      "bytes": 484
     },
     "software/catalog.json": {
       "sha256": "6a5293b8265084855115860b8726967bd93149026a6219d5471c98c783e07845",

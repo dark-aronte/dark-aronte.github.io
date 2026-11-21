@@ -12,4 +12,9 @@ assert.doesNotMatch(html,/fetch\s*\(|XMLHttpRequest|sendBeacon|<script\s+src=/i,
 const match=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(match,"Missing Digital Mirror script");
 new Script(match[1],{filename:"digital-mirror.js"});
+assert.match(html,/data-nav="guide"/,"Translated guide link missing");
+assert.match(html,/data-nav="identity"/,"Translated identity link missing");
+assert.match(html,/document\.querySelectorAll\("\[data-nav\]"\)/,"Language switch does not update navigation");
+assert.match(html,/\.card\{display:grid;grid-template-columns:minmax\(0,1fr\)/,"Compact mobile cards missing");
+assert.match(html,/\.card \.hint\{display:none\}/,"Long card notes remain visible on mobile");
 console.log("Digital Mirror validation passed");

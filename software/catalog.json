@@ -1,6 +1,33 @@
 {
   "schemaVersion": 1,
-  "catalogStatus": "pre-release",
-  "lastUpdated": "2026-11-18",
-  "products": []
+  "catalogStatus": "public-beta",
+  "lastUpdated": "2026-11-21",
+  "products": [
+    {
+      "id": "filecheck",
+      "name": "Dark Aronte FileCheck",
+      "status": "public",
+      "version": "1.0",
+      "url": "/filecheck.html",
+      "category": "file-integrity",
+      "platform": "web-browser",
+      "description": "Verifica locale SHA-256 di file singoli e ricerca duplicati; esportazione del registro TXT.",
+      "privacy": "Elaborazione locale nel browser; nessun upload."
+    },
+    {
+      "id": "integrity-studio",
+      "name": "Integrity Studio",
+      "status": "public-beta",
+      "version": "1.0",
+      "url": "/integrity-studio.html",
+      "category": "document-integrity",
+      "platform": "web-browser",
+      "description": "Crea registri JSON SHA-256, verifica gruppi di file, differenze, mancanze, aggiunte e duplicati.",
+      "privacy": "Elaborazione locale nel browser; nessun upload.",
+      "limits": {
+        "maxFiles": 50,
+        "maxFileBytes": 104857600
+      }
+    }
+  ]
 }

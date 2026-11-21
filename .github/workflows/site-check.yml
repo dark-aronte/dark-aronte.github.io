@@ -18,5 +18,6 @@ jobs:
           node aegis/aegis.mjs
           node aegis/trustprint.mjs verify
           node scripts/check-mirror.mjs
+          node scripts/test-integrity-studio.mjs
           node scripts/check-filecheck.mjs
           node scripts/filecheck-functional-test.cjs

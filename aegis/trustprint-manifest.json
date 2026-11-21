@@ -7,8 +7,8 @@
       "bytes": 933
     },
     "aegis-system/index.html": {
-      "sha256": "c42813af657768225386521617d3d178c26f96810673aaa73a87c09a13f17538",
-      "bytes": 4459
+      "sha256": "c396daae955f53ada828607e1603a2514b33e2f04172b6d47be70e0294810416",
+      "bytes": 4167
     },
     "aegis-system/style.css": {
       "sha256": "2008385b7d496dd6fa8dc8197fc26d19734a807b0673acef88f905ae6f1688ab",
@@ -27,12 +27,12 @@
       "bytes": 4268
     },
     "diff-studio.html": {
-      "sha256": "ed946bb9bc2a0617fe7a2f47efb04da3ff8a516bc063845c24c33fa31441bfee",
-      "bytes": 10751
+      "sha256": "22a0b1cbae3bb4877280d77d3d0c56b4499ab89841306afbe605f650adb1e9a4",
+      "bytes": 10211
     },
     "digital-mirror.html": {
-      "sha256": "18fa2c144f9ff1169ad122bbf937786fdbfc2807e437ef5a8141aa4ce492a312",
-      "bytes": 25429
+      "sha256": "dc1349d7652d76ba6a386264b94f826e53fcb951c0f0ac6404f959f9f723cc9d",
+      "bytes": 25221
     },
     "editoriale.css": {
       "sha256": "38b7e8d2a6c52621f319b2f41f32add97dd9cd1db22b920b2fbcf086db086b1f",
@@ -43,28 +43,28 @@
       "bytes": 538
     },
     "engineering-lab.html": {
-      "sha256": "c9d87a6afc0d6ca5c00589deeb7011e4577ceda858a27d39fc443427c0882553",
-      "bytes": 12023
+      "sha256": "33b767eb4d5be993bfbf3e417b28cbea4c7b0b905322277c7c994a07811f9f13",
+      "bytes": 11138
     },
     "filecheck.html": {
-      "sha256": "b4258037edfa46a0c809599cd4ba1aa4865ee75029e2a7b88001bc1e15a98875",
-      "bytes": 20617
+      "sha256": "85600f1ad09e2e04479684da1625981e54d8f22874aaece295dbd4668302186d",
+      "bytes": 20169
     },
     "guide/index.html": {
       "sha256": "62e0ec42a443aec49f9e81a659507b17e61f7af5558550ef1a60e586340ef438",
       "bytes": 13099
     },
     "identita.html": {
-      "sha256": "7b61dd35839b066ebcc161604ea86cdee25b2c104125f84bd6a44b94df429e16",
-      "bytes": 3830
+      "sha256": "a9c01314273522307c99d9cbee360c2dfdc2eb23a40710bdc040d0a7ba89aefd",
+      "bytes": 3505
     },
     "index.html": {
-      "sha256": "f9e0aea071f47998f010e7fe0305348b1903b20fae727d594f30eeecb9450fc0",
-      "bytes": 27369
+      "sha256": "8282dd7aa1d910b414aed6de4c2eaef11228a767d65db12dfde10fdbaa3aefad",
+      "bytes": 25090
     },
     "integrity-studio.html": {
-      "sha256": "7dd83ed422c75eb7c5273f2989c8bbec76d9279899e468c8c960512ac73ec3a4",
-      "bytes": 11277
+      "sha256": "e242a9641f8f637aae77d44b3a8e82008e29455bf2ec8e7c2106e8b539e270a5",
+      "bytes": 10853
     },
     "robots.txt": {
       "sha256": "68d3eb2763d777b446c8fee25d8111fd1c4edebfc13aa062b8e22a0888ef394c",
@@ -87,8 +87,8 @@
       "bytes": 5748
     },
     "software/engineering-lab.mjs": {
-      "sha256": "8ac83c053af423f3783ee4f07aa73ac3d3f7c4bff87d2c8e3d7c5eb0f750133a",
-      "bytes": 7354
+      "sha256": "443876414be6b6e5b346fcc365f593ec11e24195eb2a3f02a2c21646f5e349c1",
+      "bytes": 7263
     },
     "software/integrity-core.mjs": {
       "sha256": "329e981c92ff54814458ece724aa1453bbddf784373b1524c63d20fbdd43136a",

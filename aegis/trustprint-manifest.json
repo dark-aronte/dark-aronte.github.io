@@ -15,8 +15,8 @@
       "bytes": 2666
     },
     "aegis/aegis.mjs": {
-      "sha256": "8a79ddfe0d6d7b5c87e0366bd84b9e6d572d3bea567acc4751bcbc503829540c",
-      "bytes": 2857
+      "sha256": "e34bc6f40a8cb3743200db637272957f4541b4af79a6879963db8e8cb7df630f",
+      "bytes": 2876
     },
     "aegis/aegis.svg": {
       "sha256": "8c5ff781afa9303693d288e3878957cdaaaef1255580c3fb595de4b5eb9a4d93",
@@ -25,6 +25,10 @@
     "assets/dark-aronte.webp": {
       "sha256": "a2d67ee8b3024128b914ee455939b95f7c92c84029d9c770d7fa13137555b137",
       "bytes": 4268
+    },
+    "diff-studio.html": {
+      "sha256": "ed946bb9bc2a0617fe7a2f47efb04da3ff8a516bc063845c24c33fa31441bfee",
+      "bytes": 10751
     },
     "digital-mirror.html": {
       "sha256": "18fa2c144f9ff1169ad122bbf937786fdbfc2807e437ef5a8141aa4ce492a312",
@@ -51,8 +55,8 @@
       "bytes": 3830
     },
     "index.html": {
-      "sha256": "c60a983e8f0cfbfbaa37be657e22e039679e56c249239edf8d406c924c927f01",
-      "bytes": 22234
+      "sha256": "663694961c8965fe3af371626a71d64944ddd2b4fd1a1b9939c18ebd952f5e94",
+      "bytes": 23470
     },
     "integrity-studio.html": {
       "sha256": "7dd83ed422c75eb7c5273f2989c8bbec76d9279899e468c8c960512ac73ec3a4",
@@ -63,12 +67,20 @@
       "bytes": 74
     },
     "sitemap.xml": {
-      "sha256": "3f26bb3346716288a18ccf8dd9b8283e4282e9b4c7d5ee22f9682b12d5e40911",
-      "bytes": 557
+      "sha256": "fd84105c7911d33ce811fee9a79d5420138a8ecc2f4049e7dec797232b81efd5",
+      "bytes": 625
     },
     "software/catalog.json": {
-      "sha256": "c7b53801d989611a9b91b4b7e5d353cdbaf8d6244563328faa9ecca167f09d3e",
-      "bytes": 1040
+      "sha256": "4b3e93d40b43579dcaced5b699ee5d04c73fe0ca5ae090596dc3b209dff5c9a1",
+      "bytes": 1524
+    },
+    "software/diff-core.mjs": {
+      "sha256": "cf942a7bab772f996b2667d51737d7c47761105f9a41d3f99317303329fbf1ba",
+      "bytes": 4485
+    },
+    "software/diff-ui.mjs": {
+      "sha256": "d0f3e99322451260a1e36a23fa6b626a47709185d9a404d90d4f91cbfcac7d99",
+      "bytes": 5748
     },
     "software/integrity-core.mjs": {
       "sha256": "329e981c92ff54814458ece724aa1453bbddf784373b1524c63d20fbdd43136a",

@@ -28,6 +28,21 @@
         "maxFiles": 50,
         "maxFileBytes": 104857600
       }
+    },
+    {
+      "id": "diff-studio",
+      "name": "Diff Studio",
+      "status": "public-beta",
+      "version": "1.0",
+      "url": "/diff-studio.html",
+      "category": "document-comparison",
+      "platform": "web-browser",
+      "description": "Confronto locale di testi riga per riga, rilevamento differenze e report JSON e patch.",
+      "privacy": "Elaborazione nel browser; nessun upload.",
+      "limits": {
+        "maxBytes": 1048576,
+        "maxLines": 1600
+      }
     }
   ]
 }

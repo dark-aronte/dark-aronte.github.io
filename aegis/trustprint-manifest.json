@@ -15,8 +15,8 @@
       "bytes": 2666
     },
     "aegis/aegis.mjs": {
-      "sha256": "e34bc6f40a8cb3743200db637272957f4541b4af79a6879963db8e8cb7df630f",
-      "bytes": 2876
+      "sha256": "a42550864ba817d7c5250465df142a0e21e851c641c10ff61d1b78c351b92772",
+      "bytes": 2899
     },
     "aegis/aegis.svg": {
       "sha256": "8c5ff781afa9303693d288e3878957cdaaaef1255580c3fb595de4b5eb9a4d93",
@@ -42,6 +42,10 @@
       "sha256": "13e84c70ce6057f9a6e28b1385a70289f2495dca29b4bb69f1676c0b44fc210d",
       "bytes": 538
     },
+    "engineering-lab.html": {
+      "sha256": "c9d87a6afc0d6ca5c00589deeb7011e4577ceda858a27d39fc443427c0882553",
+      "bytes": 12023
+    },
     "filecheck.html": {
       "sha256": "b4258037edfa46a0c809599cd4ba1aa4865ee75029e2a7b88001bc1e15a98875",
       "bytes": 20617
@@ -55,8 +59,8 @@
       "bytes": 3830
     },
     "index.html": {
-      "sha256": "663694961c8965fe3af371626a71d64944ddd2b4fd1a1b9939c18ebd952f5e94",
-      "bytes": 23470
+      "sha256": "bb5b3cce6d8ea7f8e534f6c857a37931d6e3b827be664bbaa2f86c05ac2a6872",
+      "bytes": 27325
     },
     "integrity-studio.html": {
       "sha256": "7dd83ed422c75eb7c5273f2989c8bbec76d9279899e468c8c960512ac73ec3a4",
@@ -67,8 +71,8 @@
       "bytes": 74
     },
     "sitemap.xml": {
-      "sha256": "fd84105c7911d33ce811fee9a79d5420138a8ecc2f4049e7dec797232b81efd5",
-      "bytes": 625
+      "sha256": "ae7371e30baba3781c3e2fead8bb9465029c459968e64fd836e410239954023a",
+      "bytes": 697
     },
     "software/catalog.json": {
       "sha256": "4b3e93d40b43579dcaced5b699ee5d04c73fe0ca5ae090596dc3b209dff5c9a1",
@@ -81,6 +85,10 @@
     "software/diff-ui.mjs": {
       "sha256": "d0f3e99322451260a1e36a23fa6b626a47709185d9a404d90d4f91cbfcac7d99",
       "bytes": 5748
+    },
+    "software/engineering-lab.mjs": {
+      "sha256": "8ac83c053af423f3783ee4f07aa73ac3d3f7c4bff87d2c8e3d7c5eb0f750133a",
+      "bytes": 7354
     },
     "software/integrity-core.mjs": {
       "sha256": "329e981c92ff54814458ece724aa1453bbddf784373b1524c63d20fbdd43136a",

@@ -9,7 +9,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 const root=path.resolve(process.argv.find((v,i)=>i>1&&!v.startsWith('--'))||'.');
 const apply=process.argv.includes('--apply');
-const files=['index.html','diff-studio.html','integrity-studio.html','identita.html','guide/index.html','digital-mirror.html','filecheck.html','404.html'];
+const files=['index.html','diff-studio.html','engineering-lab.html','integrity-studio.html','identita.html','guide/index.html','digital-mirror.html','filecheck.html','404.html'];
 const errors=[];
 const hash=s=>"'sha256-"+crypto.createHash('sha256').update(s,'utf8').digest('base64')+"'";
 const cssHashes=html=>[...html.matchAll(/<style\b[^>]*>([\s\S]*?)<\/style>/gi)].map(m=>hash(m[1]));
